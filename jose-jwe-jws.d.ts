@@ -16,7 +16,7 @@ interface IVerificationResult {
 type RsaSsaSignAlgorithm = "RS256" | "RS384" | "RS512";
 type RsaPssSignAlgorithm = "PS256" | "PS384" | "PS512";
 type HmacSignAlgorithm = "HS256" | "HS384" | "HS512";
-type EcdsaSignAlgorithm = "ES256" | "ES384" | "ES512";
+type EcdsaSignAlgorithm = "ES256" | "ES384" | "ES512" | "ES256K";
 type SignAlgorithm = RsaSsaSignAlgorithm | RsaPssSignAlgorithm | HmacSignAlgorithm | EcdsaSignAlgorithm;
 
 type RsaOaepEncryptAlgorithm = "RSA-OAEP" | "RSA-OAEP-256";
